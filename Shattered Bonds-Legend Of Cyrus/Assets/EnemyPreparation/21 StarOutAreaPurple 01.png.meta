@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: 28f65d20e3aaf9e418eb3e61c0bb06bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_2
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 831
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699886b48b052544bb8d941caa32dd00
+      internalID: 1001759099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_4
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 826
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462eed72da205534e9a33b6c5e67477d
+      internalID: -1144986790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 840
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8606195564b67c04682bc836d7fc081b
+      internalID: 1947632653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 836
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e3ee2bbe57d1d46958ab8e6d684eb0
+      internalID: -230339730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 630
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072201fc592583e4aa4bfabecd82fc27
+      internalID: -2096977901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 624
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbca44acef682f44af38dfa7614c2e9
+      internalID: -62803272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_10
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 620
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a6d33be58afc5419a3b9116a58c792
+      internalID: -1911668613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_11
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 616
+        width: 92
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb30a0d438be454f97b9ff687691a97
+      internalID: 2049917490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_12
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 611
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47537cb7ce686942834765cab6aad36
+      internalID: 1380768387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 414
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b22eac5af93d164e8e8692c1ecd691d
+      internalID: 47412933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 410
+        width: 121
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e67b16479d059418186fa9a8b37f41
+      internalID: -1941778697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 405
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c667dfe729fda449e69ee4ede1452d
+      internalID: 61330192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_17
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 400
+        width: 139
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b861fbbf5733a549afd863b6d8fd176
+      internalID: 428040136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_18
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 395
+        width: 149
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ef04e114f2b324e880aee247f722b8
+      internalID: -1951587550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 213
+        width: 155
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13907cc9a39d30c40a156b2cfa0ab0a8
+      internalID: 1126679504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 209
+        width: 165
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eece6b02587511045b079e4f8230772a
+      internalID: 338969714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 204
+        width: 175
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e9e03e8b475d54dbb1632fb409515b
+      internalID: 758020978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_22
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 201
+        width: 154
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbecbbbdd0db060458a15213134dcf34
+      internalID: 917481276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 201
+        width: 152
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1896656b81ef645bc4844635f786d5
+      internalID: -1366910453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 14
+        width: 156
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04739673825fe8a40aebfb1fbb84b7f7
+      internalID: 653362547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 10
+        width: 165
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f74955c6ab29e0448f14da86fce8a7a
+      internalID: -1077152207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_26
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 36
+        width: 171
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2396823f4b75446b12c78df823d665
+      internalID: 1858579929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutAreaPurple 01_27
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 32
+        width: 150
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b5db573df4cab4eb4a6b0549693429
+      internalID: -1909109002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      21 StarOutAreaPurple 01_8: 55534927
+      21 StarOutAreaPurple 01_19: 1126679504
+      21 StarOutAreaPurple 01_25: -1077152207
+      21 StarOutAreaPurple 01_22: 917481276
+      21 StarOutAreaPurple 01_18: -1951587550
+      21 StarOutAreaPurple 01_21: 758020978
+      21 StarOutAreaPurple 01_5: 1947632653
+      21 StarOutAreaPurple 01_0: -1124574387
+      21 StarOutAreaPurple 01_12: 1380768387
+      21 StarOutAreaPurple 01_3: -323132835
+      21 StarOutAreaPurple 01_20: 338969714
+      21 StarOutAreaPurple 01_6: -230339730
+      21 StarOutAreaPurple 01_26: 1858579929
+      21 StarOutAreaPurple 01_1: -771242890
+      21 StarOutAreaPurple 01_17: 428040136
+      21 StarOutAreaPurple 01_7: -2096977901
+      21 StarOutAreaPurple 01_11: 2049917490
+      21 StarOutAreaPurple 01_16: 61330192
+      21 StarOutAreaPurple 01_15: -1941778697
+      21 StarOutAreaPurple 01_24: 653362547
+      21 StarOutAreaPurple 01_2: 1001759099
+      21 StarOutAreaPurple 01_4: -1144986790
+      21 StarOutAreaPurple 01_13: 1444334895
+      21 StarOutAreaPurple 01_14: 47412933
+      21 StarOutAreaPurple 01_23: -1366910453
+      21 StarOutAreaPurple 01_10: -1911668613
+      21 StarOutAreaPurple 01_27: -1909109002
+      21 StarOutAreaPurple 01_9: -62803272
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

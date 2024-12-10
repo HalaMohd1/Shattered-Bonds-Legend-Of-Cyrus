@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: 98afa577f048f9343b98897d0b67e862
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 834
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a0f06ebef6eff45a6c1423cd8f0c8e
+      internalID: -277305857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_6
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 827
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1daec5a7037cb142b608c3862a2b51a
+      internalID: 1219392543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_9
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 823
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64f06341c4eb9c459fd49837ac4aa68
+      internalID: 1958559168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_11
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 819
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff659ead78a535a41b2834022eb90fb9
+      internalID: -813573453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_14
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 615
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c641d1b6ca0d7d84593445268e705000
+      internalID: 630482473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 610
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2ae6a93119ed34188f9e29f62da0db
+      internalID: 192596826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_16
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 605
+        width: 121
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f00285643762a48a5e7365e6ba3b5e
+      internalID: 779105114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_17
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 600
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62f1eda301f081448ed91c0d5dfb590
+      internalID: 2091063372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 622
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eccabf917a83ad4f937be62a1d6b4ec
+      internalID: -1042660267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 403
+        width: 141
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcdac3f1fc51f6468072173968702ee
+      internalID: 448527712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_22
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 398
+        width: 151
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602e49d43d2b88247aab6ea254cd282d
+      internalID: 2040448515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_23
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 393
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa88ce23f3c284488eacc9b682ae79
+      internalID: 157958716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_24
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 388
+        width: 171
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea36caf205bcef04d8fd44b45079d9d6
+      internalID: -1214425118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_25
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 384
+        width: 180
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342c1d974079cc64aa8e559d29df8112
+      internalID: -1621485605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 155
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4ffadf30a9c644596b108e0ddfc854
+      internalID: 658996044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 217
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c1ffff125b7e347b076eeda9f76d40
+      internalID: 192062933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 212
+        width: 170
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6fa624c27a43746b23a6c21cce634c
+      internalID: 356225797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_29
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 208
+        width: 167
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19e4d0103fa0fa4dbced5e15a140cdc
+      internalID: -108906291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_30
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 203
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7290dd9f321394a958cae8db857f62
+      internalID: 828607147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 171
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbb6af7bbd84c548a1b7657c72c7ec4
+      internalID: -1373030332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 6
+        width: 165
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46cbd9035a66a94fad7069b6d2f06f5
+      internalID: -2131978575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_33
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1
+        width: 174
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5b2820eec45554392a4b32b75116e6
+      internalID: -1100860458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 21 StarOutElipse01Purple 02_34
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 0
+        width: 181
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b50889e2de404abaeb10ed50b0fbf
+      internalID: -1620118498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      21 StarOutElipse01Purple 02_13: 1171119476
+      21 StarOutElipse01Purple 02_10: -2047698026
+      21 StarOutElipse01Purple 02_7: 605250590
+      21 StarOutElipse01Purple 02_31: -1373030332
+      21 StarOutElipse01Purple 02_12: -441692552
+      21 StarOutElipse01Purple 02_22: 2040448515
+      21 StarOutElipse01Purple 02_24: -1214425118
+      21 StarOutElipse01Purple 02_32: -2131978575
+      21 StarOutElipse01Purple 02_5: -277305857
+      21 StarOutElipse01Purple 02_20: -1993347215
+      21 StarOutElipse01Purple 02_4: -492857575
+      21 StarOutElipse01Purple 02_9: 1958559168
+      21 StarOutElipse01Purple 02_15: 192596826
+      21 StarOutElipse01Purple 02_28: 356225797
+      21 StarOutElipse01Purple 02_19: -1042660267
+      21 StarOutElipse01Purple 02_26: 658996044
+      21 StarOutElipse01Purple 02_29: -108906291
+      21 StarOutElipse01Purple 02_33: -1100860458
+      21 StarOutElipse01Purple 02_21: 448527712
+      21 StarOutElipse01Purple 02_3: -1802821055
+      21 StarOutElipse01Purple 02_30: 828607147
+      21 StarOutElipse01Purple 02_25: -1621485605
+      21 StarOutElipse01Purple 02_2: -317724376
+      21 StarOutElipse01Purple 02_0: -549261729
+      21 StarOutElipse01Purple 02_8: -163663599
+      21 StarOutElipse01Purple 02_14: 630482473
+      21 StarOutElipse01Purple 02_16: 779105114
+      21 StarOutElipse01Purple 02_6: 1219392543
+      21 StarOutElipse01Purple 02_17: 2091063372
+      21 StarOutElipse01Purple 02_18: 443690
+      21 StarOutElipse01Purple 02_27: 192062933
+      21 StarOutElipse01Purple 02_1: 1639863909
+      21 StarOutElipse01Purple 02_23: 157958716
+      21 StarOutElipse01Purple 02_11: -813573453
+      21 StarOutElipse01Purple 02_34: -1620118498
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Platform
+  - ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -12,9 +15,9 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
+  - Player
+  - ground
+  - Enemy
   - 
   - 
   - 
@@ -38,6 +41,54 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: New Layer 15
+    uniqueID: 3259155037
+    locked: 0
+  - name: New Layer 14
+    uniqueID: 108491587
+    locked: 0
+  - name: New Layer 13
+    uniqueID: 2843943285
+    locked: 0
+  - name: New Layer 12
+    uniqueID: 2415608049
+    locked: 0
+  - name: New Layer 11
+    uniqueID: 3854287457
+    locked: 0
+  - name: New Layer 10
+    uniqueID: 2417063189
+    locked: 0
+  - name: New Layer 9
+    uniqueID: 4004870025
+    locked: 0
+  - name: background
+    uniqueID: 1813309167
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: mountain
+    uniqueID: 26328239
+    locked: 0
+  - name: mountain2
+    uniqueID: 1582370361
+    locked: 0
+  - name: mountain3
+    uniqueID: 3794746533
+    locked: 0
+  - name: groundBack
+    uniqueID: 4187318091
+    locked: 0
+  - name: groundBack2
+    uniqueID: 1282209295
+    locked: 0
+  - name: ground
+    uniqueID: 2229292747
+    locked: 0
+  - name: player
+    uniqueID: 4201594929
+    locked: 0
+  - name: New Layer 16
+    uniqueID: 4076657329
     locked: 0
