@@ -53,7 +53,7 @@ public class WalkingEnemy : EnemyController
         {
 
             FindObjectOfType<PlayerStats>().TakeDamage(damage);
-
+            Destroy(this.gameObject);
             Flip();  // Flip the enemy's direction
         }
 
