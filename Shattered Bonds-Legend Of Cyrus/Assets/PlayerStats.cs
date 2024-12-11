@@ -19,6 +19,7 @@ public class PlayerStats : MonoBehaviour
     public float immunityDuration = 1.5f; //time player remains immuneafterdamage
 
     public int gemsCollected = 0;
+
     public AudioClip gameoversound;
     public AudioClip gamevictorysound;
     // Start is called before the first frame update
@@ -102,6 +103,14 @@ public class PlayerStats : MonoBehaviour
             }
         }   
     }
+    
+    public void HealthIncrease(int healAmount){
+        this.health= healAmount + healAmount;
+        Debug.Log("Health increases by: "+ healAmount);
+        Debug.Log("Current health: " + healAmount);
+        Debug.Log("Current lives: "+  lives);
+
+    } 
 
 /*  public void GameWin()
     {

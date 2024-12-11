@@ -15,13 +15,14 @@ public class PlayerController : MonoBehaviour
         private bool grounded;
         private Animator anim;
 
-        /* public KeyCode Return;
+         public KeyCode S;
         public Transform firepoint;
-        public GameObject bullet;
+        public GameObject laser;
+        public bool LaserPickedUp=false;
 
-        public AudioClip jump1;
-         public AudioClip jump2;
-         public AudioClip lasersound; */
+        /*public AudioClip jump1;
+         public AudioClip jump2;*/
+         public AudioClip lasersound; 
     
     // Start is called before the first frame update
     void Start()
@@ -71,16 +72,17 @@ public class PlayerController : MonoBehaviour
          
 
 
-         /* if(Input.GetKeyDown(Return)){
+          if(Input.GetKeyDown(S) && LaserPickedUp){
             Shoot();
-         } */
+            //LaserPickedUp=false;//this will allow player to shoot only once
+         } 
 
     }
 
-    /* public void Shoot(){
-        Instantiate(bullet, firepoint.position, firepoint.rotation);
+     public void Shoot(){
+        Instantiate(laser, firepoint.position, firepoint.rotation);
         AudioManager.instance.PlaySingle(lasersound);
-    } */
+    } 
 
      void FixedUpdate(){
 

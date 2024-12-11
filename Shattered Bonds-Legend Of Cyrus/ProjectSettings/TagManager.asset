@@ -86,9 +86,15 @@ TagManager:
   - name: ground
     uniqueID: 2229292747
     locked: 0
+  - name: New Layer 17
+    uniqueID: 4287203535
+    locked: 0
   - name: player
     uniqueID: 4201594929
     locked: 0
   - name: New Layer 16
     uniqueID: 4076657329
+    locked: 0
+  - name: Enemy
+    uniqueID: 1394624797
     locked: 0
