@@ -1856,6 +1856,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d80a49b68b1e8847878079dd17aedc0, type: 3}
+--- !u!4 &288111864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7207178650706556358, guid: 8b4d7d7e001788b4c827da61de9bd5d6, type: 3}
+  m_PrefabInstance: {fileID: 8256448676430464575}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &298896474
 GameObject:
   m_ObjectHideFlags: 0
@@ -4537,6 +4542,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 419455309417785372, guid: 0976342dbd4537c448b32eb7978b0b01, type: 3}
   m_PrefabInstance: {fileID: 1181744112}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &638602769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1872415685309582016, guid: 8b4d7d7e001788b4c827da61de9bd5d6, type: 3}
+  m_PrefabInstance: {fileID: 8256448676430464575}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &644481334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4751,6 +4761,7 @@ GameObject:
   - component: {fileID: 685493947}
   - component: {fileID: 685493946}
   - component: {fileID: 685493945}
+  - component: {fileID: 685493948}
   m_Layer: 0
   m_Name: aged_thief__Idle_000
   m_TagString: Enemy
@@ -4845,6 +4856,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &685493948
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685493944}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.5241241, y: -1.0244098}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.2, y: 11.6}
+    newSize: {x: 15.2, y: 11.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.156952, y: 7.452388}
+  m_EdgeRadius: 0
 --- !u!1 &688563252
 GameObject:
   m_ObjectHideFlags: 0
@@ -17614,13 +17651,21 @@ PrefabInstance:
       propertyPath: speed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6698446328410051027, guid: 8b4d7d7e001788b4c827da61de9bd5d6, type: 3}
+      propertyPath: points.Array.data[0]
+      value: 
+      objectReference: {fileID: 288111864}
+    - target: {fileID: 6698446328410051027, guid: 8b4d7d7e001788b4c827da61de9bd5d6, type: 3}
+      propertyPath: points.Array.data[1]
+      value: 
+      objectReference: {fileID: 638602769}
     - target: {fileID: 7207178650706556358, guid: 8b4d7d7e001788b4c827da61de9bd5d6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.03
+      value: 6.56
       objectReference: {fileID: 0}
     - target: {fileID: 7207178650706556358, guid: 8b4d7d7e001788b4c827da61de9bd5d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.85
+      value: -5.73
       objectReference: {fileID: 0}
     - target: {fileID: 8003659974075109840, guid: 8b4d7d7e001788b4c827da61de9bd5d6, type: 3}
       propertyPath: m_LocalPosition.x
