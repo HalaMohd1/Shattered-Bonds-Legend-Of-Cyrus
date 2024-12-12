@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Arrow
+  - Health
+  - Ladder
+  - ExtraLife
+  - Wall
+  - Boss
+  - EnemyWater
+  - Green Portal
+  - Purple Portal
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Enemies
+  - Gems
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 4061034885
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: FG
+    uniqueID: 1943558615
+    locked: 0
+  - name: Player
+    uniqueID: 1017935623
+    locked: 0

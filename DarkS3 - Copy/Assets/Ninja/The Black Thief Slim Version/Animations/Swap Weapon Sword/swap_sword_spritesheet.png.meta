@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 5884f1ca95f73ec4cac12c9175be4c13
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 900
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3663
+        width: 418
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70249679eaeb50b48bddce8369189ca3
+      internalID: -1922824157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 3663
+        width: 605
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65e6aea34e78dc4c816df804a79afd1
+      internalID: -985809123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 3663
+        width: 557
+        height: 890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422a0866afe8a284ba7d7b5f4a9a0f7a
+      internalID: -1479722755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 4773
+        y: 3663
+        width: 454
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba96253d893d29d48af87dd1983b9092
+      internalID: 90692366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 3663
+        width: 454
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b4179428f9b4d40acfbafc7658ecf0
+      internalID: -1200973954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2461
+        width: 455
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba11511b2ff0a0a48b43502544a1b61a
+      internalID: 2008026825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 2461
+        width: 538
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bebedb07d94e4468acb8e5fec0b37b
+      internalID: 894859230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 2461
+        width: 627
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fad15cc0dec79140898eeb3741b562c
+      internalID: -472585177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4813
+        y: 2461
+        width: 704
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a50f7d58503e14281f92d20351039e
+      internalID: 1582371928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 6320
+        y: 2461
+        width: 696
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a667966d3fb46894d938fd19fe125f41
+      internalID: 1908703407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1259
+        width: 692
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab44e2d2d1414249a3880150ce9344d
+      internalID: 766419385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1259
+        width: 612
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd73684bd3a1854ebd3192ae5678d11
+      internalID: -127997316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 1259
+        width: 588
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286ac96cee1d6304486c565aa17f9946
+      internalID: -331187974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 4825
+        y: 1259
+        width: 670
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed6b8ac2a80c054e8a080e16f374bf8
+      internalID: -550172871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 6327
+        y: 1259
+        width: 718
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7bcc970a1fbb84b8742115c15aba6f
+      internalID: -443139732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 60
+        width: 667
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2876aace59e8949449d0c61c07d90dca
+      internalID: 476072987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 60
+        width: 571
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da9617ff66afc64ab81ab3566ae94c1
+      internalID: -589342384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 753
+        width: 534
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa16ff64353c49d4ab69cb1e7af040a8
+      internalID: 1775478757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 60
+        width: 575
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af07199d6e0695040943fddf903c7df8
+      internalID: 451523277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 577
+        width: 528
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79242b2b76db349429f8334827808671
+      internalID: 280756612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4828
+        y: 60
+        width: 857
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c5ad2497b278b43829a8c4513a1c56
+      internalID: 386890707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swap_sword_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 6331
+        y: 60
+        width: 864
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21780597c8aeab744a57dfabef147528
+      internalID: 1071581436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      swap_sword_spritesheet_21: 1071581436
+      swap_sword_spritesheet_16: -589342384
+      swap_sword_spritesheet_2: -1479722755
+      swap_sword_spritesheet_12: -331187974
+      swap_sword_spritesheet_20: 386890707
+      swap_sword_spritesheet_11: -127997316
+      swap_sword_spritesheet_14: -443139732
+      swap_sword_spritesheet_15: 476072987
+      swap_sword_spritesheet_17: 1775478757
+      swap_sword_spritesheet_13: -550172871
+      swap_sword_spritesheet_9: 1908703407
+      swap_sword_spritesheet_7: -472585177
+      swap_sword_spritesheet_3: 90692366
+      swap_sword_spritesheet_18: 451523277
+      swap_sword_spritesheet_5: 2008026825
+      swap_sword_spritesheet_10: 766419385
+      swap_sword_spritesheet_8: 1582371928
+      swap_sword_spritesheet_19: 280756612
+      swap_sword_spritesheet_0: -1922824157
+      swap_sword_spritesheet_1: -985809123
+      swap_sword_spritesheet_4: -1200973954
+      swap_sword_spritesheet_6: 894859230
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
