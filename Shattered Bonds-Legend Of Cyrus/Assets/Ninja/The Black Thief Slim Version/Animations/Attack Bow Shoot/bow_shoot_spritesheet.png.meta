@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 03edb0e2cb0fb0649859c435d69d07e6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 900
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1136
+        width: 798
+        height: 1198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb8fdbebe946b7e6b3257ce51465ee5
+      internalID: -1704829498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1116
+        width: 1148
+        height: 1286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338ba41e57177de10b1788bf300f58be
+      internalID: -1365813567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 3115
+        y: 1136
+        width: 978
+        height: 1228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0664abf5b38c34af2b32ef24686cf368
+      internalID: -1515215537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 4542
+        y: 1046
+        width: 1009
+        height: 1356
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7691b3b0b2a0ddfe193498c50b5baf42
+      internalID: 681663741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 6010
+        y: 1156
+        width: 998
+        height: 1228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96069d7fbe0a250fbb6e7d6e42891771
+      internalID: -310892707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 7407
+        y: 1116
+        width: 1148
+        height: 1268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88679b2ae0c7ae4bb31a171409113c8
+      internalID: 1361014102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 9044
+        y: 1156
+        width: 1058
+        height: 1188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93be27c1dc8d2ac69af94eba8aa491fa
+      internalID: 493441413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 10561
+        y: 1106
+        width: 978
+        height: 1248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15759b42bb787ae51904331d5dc1a14b
+      internalID: 1101275430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 12048
+        y: 1086
+        width: 1038
+        height: 1268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6d7fa52681f083ab6e57375f0ade71
+      internalID: -1811667523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 13576
+        y: 1106
+        width: 968
+        height: 1268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5f843f5cf24c3b1bd4a5f6762aac51
+      internalID: 1982682369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 15093
+        y: 1116
+        width: 948
+        height: 1218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd38891ac2a20b33ea8dc3e84da85aec
+      internalID: 840835303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 788
+        height: 1016
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be764ba8b0c5191c909681721747939
+      internalID: 1519080760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 0
+        width: 968
+        height: 1046
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8182cbb07d93b1cb8be5e59f61938d0d
+      internalID: 270338249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 8
+        width: 938
+        height: 1028
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df73eca32f46e7f5bb85cd45f7bcdd54
+      internalID: -1303262469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 4652
+        y: 0
+        width: 909
+        height: 946
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed67ee0c31c212a58a4bb41e5df69fb
+      internalID: 671468541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 6169
+        y: 0
+        width: 869
+        height: 996
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f3b2a8f44140eb8ae85207f31f1587
+      internalID: 2140536627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 7597
+        y: 0
+        width: 1008
+        height: 1056
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa15bace5796537abe3696df73c4e9
+      internalID: -1096366901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 9144
+        y: 0
+        width: 868
+        height: 1036
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312ae68b7e666d6c9819c90b83ba09f4
+      internalID: -1759046979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 10681
+        y: 0
+        width: 938
+        height: 966
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6e3228e1947b7f8ba97f3a51c24f96
+      internalID: 1852525772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 12068
+        y: 0
+        width: 939
+        height: 976
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bcd74fe139fc9b588f6f6aa0cfaae6
+      internalID: 1491424491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 13675
+        y: 0
+        width: 859
+        height: 986
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ea4947d749601b8866320aa6490599
+      internalID: 966201133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_shoot_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 15023
+        y: 0
+        width: 1028
+        height: 1016
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9516841e9814dc7a3afe674da910b6
+      internalID: -1216994542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bow_shoot_spritesheet_13: 270338249
+      bow_shoot_spritesheet_0: -1704829498
+      bow_shoot_spritesheet_7: 493441413
+      bow_shoot_spritesheet_12: 1519080760
+      bow_shoot_spritesheet_4: 681663741
+      bow_shoot_spritesheet_9: -1811667523
+      bow_shoot_spritesheet_17: -1096366901
+      bow_shoot_spritesheet_18: -1759046979
+      bow_shoot_spritesheet_5: -310892707
+      bow_shoot_spritesheet_20: 1491424491
+      bow_shoot_spritesheet_8: 1101275430
+      bow_shoot_spritesheet_15: 671468541
+      bow_shoot_spritesheet_1: 1793484267
+      bow_shoot_spritesheet_16: 2140536627
+      bow_shoot_spritesheet_14: -1303262469
+      bow_shoot_spritesheet_19: 1852525772
+      bow_shoot_spritesheet_21: 966201133
+      bow_shoot_spritesheet_6: 1361014102
+      bow_shoot_spritesheet_10: 1982682369
+      bow_shoot_spritesheet_11: 840835303
+      bow_shoot_spritesheet_2: -1365813567
+      bow_shoot_spritesheet_3: -1515215537
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
