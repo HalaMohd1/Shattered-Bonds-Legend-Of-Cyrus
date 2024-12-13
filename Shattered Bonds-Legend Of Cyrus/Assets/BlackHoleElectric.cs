@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class BlackHoleElectric : MonoBehaviour
 {
-    private PlayerStats playerstats;
+    private PlayerStatsHala playerstats;
     public int damage=4; //this way it should respawn player to checkpoint only from 1 collision
     // Start is called before the first frame update
     void Start()
     {
     
-        playerstats=FindObjectOfType<PlayerStats>();
+        playerstats=FindObjectOfType<PlayerStatsHala>();
     }
     void OnTriggerEnter2D(Collider2D other){
         if(other.CompareTag("Player")){

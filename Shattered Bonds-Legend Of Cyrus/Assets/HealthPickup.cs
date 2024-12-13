@@ -12,7 +12,7 @@ public class HealthPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
        
-            PlayerStats playerStats = other.GetComponent<PlayerStats>();
+            PlayerStatsHala playerStats = other.GetComponent<PlayerStatsHala>();
             playerStats.HealthIncrease(healAmount); 
             
             Destroy(gameObject); //destroy after pickup

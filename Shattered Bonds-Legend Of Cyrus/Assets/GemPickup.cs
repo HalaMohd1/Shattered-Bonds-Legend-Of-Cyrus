@@ -21,7 +21,7 @@ public class GemPickup : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other){
         if(other.tag=="Player"){
-            FindObjectOfType<PlayerStats>().CollectGem(gemValue);
+            FindObjectOfType<PlayerStatsHala>().CollectGem(gemValue);
            
             //AudioManager.instance.PlaySingle(coinSound);
             //AudioManager.instance.RandomizeSfx(coinSound,coinSound2);
@@ -30,5 +30,6 @@ public class GemPickup : MonoBehaviour
             Debug.Log("Coin Value: " + gemValue);
 
         }
+
     }
 }

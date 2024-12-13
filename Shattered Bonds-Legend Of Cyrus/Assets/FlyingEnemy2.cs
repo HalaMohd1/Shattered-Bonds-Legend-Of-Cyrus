@@ -4,26 +4,26 @@ using UnityEngine;
 
 public class FlyingEnemy2 : EnemyController
 {
-    public float HorizontalSpeed;  // Speed at which the enemy moves horizontally
-    public float VerticalSpeed;    // Speed of the vertical "wobble"
-    public float amplitude;        // Amplitude of the vertical movement (wobble effect)
-    private Vector3 temp_position; // Temporary position to apply movement
-    public float attackRange = 2f; // Range to detect the player
-    private bool isAttacking = false; // Is the enemy in attacking mode?
+    public float HorizontalSpeed;  
+    public float VerticalSpeed;    //speed for the wobbling effect
+    public float amplitude;        //the amplitude or height at which it moves between..
+    private Vector3 temp_position; 
+    public float attackRange = 2f; //range for detecting player
+    private bool isAttacking = false; 
 
-    private PlayerController player; // Reference to the player
-    private Animator anim;           // Reference to the Animator
+    private PlayerController player; 
+    private Animator anim;           
 
-    public Transform pointA;         // Starting point
-    public Transform pointB;         // End point
-    private bool movingRight = true; // Direction flag for flipping (true = moving right, false = moving left)
+    public Transform pointA;         //start point
+    public Transform pointB;         //end point
+    private bool movingRight = true; //flipp
 
     // Start is called before the first frame update
     void Start()
     {
-        temp_position = transform.position;  // Initialize the enemy's position
-        anim = GetComponent<Animator>();     // Get the Animator component
-        player = FindObjectOfType<PlayerController>(); // Reference to the player
+        temp_position = transform.position;  
+        anim = GetComponent<Animator>();     
+        player = FindObjectOfType<PlayerController>(); 
     }
 
     // Update is called once per frame
@@ -44,23 +44,23 @@ public class FlyingEnemy2 : EnemyController
             temp_position.x -= HorizontalSpeed * Time.deltaTime;
         }
 
-        // Apply vertical wobble
+        //for the wobble effect
         float verticalWobble = Mathf.Sin(Time.realtimeSinceStartup * VerticalSpeed) * amplitude;
         temp_position.y = pointA.position.y + verticalWobble;
 
-        // Update the enemy's position
+        //updating its position(enemy)
         transform.position = temp_position;
 
-        // Flip the enemy when reaching waypoints
-        if (movingRight && temp_position.x >= pointB.position.x)
+        
+        if (movingRight && temp_position.x >= pointB.position.x) //needed to flip the enemy once he reaches the end point
         {
-            movingRight = false; // Switch to moving left
-            Flip(); // Flip the sprite
+            movingRight = false; //move it to the left
+            Flip(); //call function for flipping
         }
         else if (!movingRight && temp_position.x <= pointA.position.x)
         {
-            movingRight = true;  // Switch to moving right
-            Flip(); // Flip the sprite
+            movingRight = true;  
+            Flip(); //again call function for flipping
         }
     }
 
@@ -75,7 +75,7 @@ public class FlyingEnemy2 : EnemyController
             if (!isAttacking)
             {
                 isAttacking = true;
-                anim.SetBool("isAttacking", true); // Trigger attack animation
+                anim.SetBool("isAttacking", true); //trigger or set the attack animation state...(transition) to attacking state
             }
         }
         else
@@ -83,14 +83,14 @@ public class FlyingEnemy2 : EnemyController
             if (isAttacking)
             {
                 isAttacking = false;
-                anim.SetBool("isAttacking", false); // Revert to normal animation
+                anim.SetBool("isAttacking", false); //set it back to normal..not the its attack state 
             }
         }
     }
 
     public new void Flip()
     {
-        // Flip the enemy horizontally
+    
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
 
@@ -98,16 +98,13 @@ public class FlyingEnemy2 : EnemyController
     {
         if (other.CompareTag("Player"))
         {
-            // Damage the player
-            PlayerStats playerStats = other.GetComponent<PlayerStats>();
-            if (playerStats != null)
-            {
+          
+            PlayerStatsHala playerStats = other.GetComponent<PlayerStatsHala>();
                 playerStats.TakeDamage(damage);
-            }
-
-            // Flip direction upon collision
+            
+          
             Flip();
-            movingRight = !movingRight; // Change direction after collision
+            movingRight = !movingRight; 
         }
     }
 }

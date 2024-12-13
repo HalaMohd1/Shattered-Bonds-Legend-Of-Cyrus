@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
         damage .reduce health..from playerstats*/
         if(other.tag == "Player")
         {
-            FindObjectOfType<PlayerStats>().TakeDamage(damage);
+            FindObjectOfType<PlayerStatsHala>().TakeDamage(damage);
         }
     
     

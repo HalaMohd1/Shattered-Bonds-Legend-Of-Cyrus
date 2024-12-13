@@ -41,6 +41,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: New Layer 25
+    uniqueID: 1898393529
+    locked: 0
+  - name: New Layer 24
+    uniqueID: 3726928183
+    locked: 0
+  - name: New Layer 23
+    uniqueID: 3786481967
+    locked: 0
+  - name: New Layer 22
+    uniqueID: 3490111801
+    locked: 0
   - name: New Layer 20
     uniqueID: 2605800645
     locked: 0

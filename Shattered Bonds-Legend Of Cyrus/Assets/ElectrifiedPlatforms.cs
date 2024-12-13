@@ -77,7 +77,7 @@ public class ElectrifiedPlatforms : MonoBehaviour
             if (isElectrified) // Check if the platform is electrified
             {
                 // Player takes damage if the platform is electrified
-                PlayerStats playerStats = collision.collider.GetComponent<PlayerStats>();
+                PlayerStatsHala playerStats = collision.collider.GetComponent<PlayerStatsHala>();
                 if (playerStats != null)
                 {
                     playerStats.TakeDamage(damage);  // Deal damage to the player
@@ -91,7 +91,7 @@ public class ElectrifiedPlatforms : MonoBehaviour
         if (collision.collider.CompareTag("Player") && isElectrified)
         {
             // Player continuously takes damage if the platform stays electrified
-            PlayerStats playerStats = collision.collider.GetComponent<PlayerStats>();
+            PlayerStatsHala playerStats = collision.collider.GetComponent<PlayerStatsHala>();
             if (playerStats != null)
             {
                 playerStats.TakeDamage(damage);  // Damage over time while staying on the platform

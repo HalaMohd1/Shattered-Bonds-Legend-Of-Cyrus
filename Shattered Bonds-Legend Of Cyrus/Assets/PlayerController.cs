@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
       if(Input.GetKeyDown(Spacebar) && grounded)
       {
         Jump();
-         anim.SetTrigger("JumpTrigger"); //the player jump animation occurs only once when jumping to avoid looping
+         //anim.SetTrigger("JumpTrigger"); //the player jump animation occurs only once when jumping to avoid looping
         //AudioManager.instance.PlaySingle(jump1); //play one jump
         //AudioManager.instance.RandomizeSfx(jump1, jump2); //choose between teo jump sounds, randoms
 
@@ -74,14 +74,26 @@ public class PlayerController : MonoBehaviour
 
           if(Input.GetKeyDown(S) && LaserPickedUp){
             Shoot();
-            //LaserPickedUp=false;//this will allow player to shoot only once
+            //LaserPickedUp=false;//...this will allow player to shoot only once
          } 
 
     }
 
      public void Shoot(){
-        Instantiate(laser, firepoint.position, firepoint.rotation);
-        AudioManager.instance.PlaySingle(lasersound);
+       GameObject spawnedLaser = Instantiate(laser, firepoint.position, firepoint.rotation);
+
+    // Flip the laser direction based on player direction
+    if (transform.localScale.x < 0)
+    {
+        LaserController laserController = spawnedLaser.GetComponent<LaserController>();
+        laserController.speed = -Mathf.Abs(laserController.speed); // Ensure the speed is negative for left
+    }
+
+       // Instantiate(laser, firepoint.position, firepoint.rotation);
+        //anim.setTrigger("Throw");
+        AudioManagerHala.instance.PlaySingle(lasersound);
+        
+        
     } 
 
      void FixedUpdate(){
