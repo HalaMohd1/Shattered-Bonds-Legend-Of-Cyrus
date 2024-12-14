@@ -57,15 +57,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3711508786738261357, guid: 09397d6c6a5af5d9bae0b73a556e74ea, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6934932567131368930, guid: 09397d6c6a5af5d9bae0b73a556e74ea, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8512131067900076469, guid: 09397d6c6a5af5d9bae0b73a556e74ea, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9174954620477754780, guid: 09397d6c6a5af5d9bae0b73a556e74ea, type: 3}
       propertyPath: maxX
@@ -75,6 +75,10 @@ PrefabInstance:
       propertyPath: minX
       value: 91.42
       objectReference: {fileID: 0}
+    - target: {fileID: 9174954620477754780, guid: 09397d6c6a5af5d9bae0b73a556e74ea, type: 3}
+      propertyPath: enemyHit
+      value: 
+      objectReference: {fileID: 8300000, guid: 8df09ac215e8e3542ab8241da7d9ecdd, type: 3}
     - target: {fileID: 9174954620477754780, guid: 09397d6c6a5af5d9bae0b73a556e74ea, type: 3}
       propertyPath: maxSpeed
       value: 1

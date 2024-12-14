@@ -8,7 +8,6 @@ using UnityEngine;
 public class Controller : MonoBehaviour
 {
     public float shootingTimer=0;
-    private int dir=1;
     public float moveSpeed;
     public float jumpHeight;
     public KeyCode Spacebar;
@@ -21,14 +20,13 @@ public class Controller : MonoBehaviour
     public bool grounded;
     private Animator anim;
     public KeyCode Return;
-        public AudioClip ArrowShootingSound;
-        public AudioClip JumpSound;
+    public AudioClip ArrowShootingSound;
+    public AudioClip JumpSound;
     public Transform firepoint;
     public GameObject bullet;
     public BoxCollider2D boxCollider;
     public Object SwordAttackObj;
     private float speed;
-    public bool Realm=false;
     private int arrowCount=0;
     // Start is called before the first frame update
     void Start()
@@ -42,7 +40,6 @@ public class Controller : MonoBehaviour
     {
         
        speed=moveSpeed*anim.GetFloat("Speed");
-       if(!Realm){
        if(Input.GetKeyDown(Spacebar) && grounded){
             Jump(); 
             FindObjectOfType<AudioManager>().PlaySingle(JumpSound);
@@ -80,7 +77,7 @@ public class Controller : MonoBehaviour
          else if(Input.GetKeyDown(KeyCode.F)){
             anim.SetBool("IsAttacking", true);
          } 
-       }
+      
         if(Input.GetKey(L)){
 
             anim.SetFloat("Speed",Mathf.Clamp(anim.GetFloat("Speed") + Time.deltaTime*2, 0, 1) ); 
@@ -102,22 +99,8 @@ public class Controller : MonoBehaviour
              GetComponent<Rigidbody2D>().velocity=new Vector2(0,GetComponent<Rigidbody2D>().velocity.y);
             anim.SetFloat("Speed",Mathf.Clamp(anim.GetFloat("Speed") - Time.deltaTime*2, 0, 1) );
          }
-        if(Realm){
-            shootingTimer-=Time.deltaTime;
-            if(Input.GetKeyDown(Return) && shootingTimer<=0){
-            shootingTimer=1f;
-                Shoot();
-        }
-        if(Input.GetKeyDown(KeyCode.F)){
-            this.GetComponent<Rigidbody2D>().gravityScale*=-1;
-            this.GetComponent<SpriteRenderer>().flipY=!this.GetComponent<SpriteRenderer>().flipY;
-            this.GetComponent<BoxCollider2D>().offset*=-1;
-            firepoint.localPosition = new Vector3(firepoint.localPosition.x, firepoint.localPosition.y * -1, firepoint.localPosition.z);
-            this.transform.position=new Vector3(this.transform.position.x, this.transform.position.y+dir, this.transform.position.z);
-            dir*=-1;
-        }
-        }
-          anim.SetBool("IsGrounded", grounded || Realm);
+       
+          anim.SetBool("IsGrounded", grounded);
     }
     void Jump(){
         GetComponent<Rigidbody2D>().velocity= new Vector2(GetComponent<Rigidbody2D>().velocity.x,jumpHeight);
@@ -149,10 +132,9 @@ public class Controller : MonoBehaviour
         }
     }
     void FixedUpdate(){
-        if(!Realm)
         grounded=Physics2D.OverlapCircle(grounCheck.position,grounCheckRadius,whatIsGround);
 
-    }
+   }
     public void StopAttacking(){
         anim.SetBool("IsAttacking", false);
     }
